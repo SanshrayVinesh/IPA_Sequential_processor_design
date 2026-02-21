@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module PCAdder (
     input  [63:0] pc_in,   // Current Program Counter address
     output [63:0] pc_out   // Incremented address (PC + 4)
